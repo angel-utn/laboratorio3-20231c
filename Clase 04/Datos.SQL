@@ -1,6 +1,8 @@
 Use Master
 Use AgenciaTransito
 
+Set DateFormat 'YMD'
+
 INSERT INTO TipoInfracciones (Descripcion, ImporteReferencia) VALUES
 ('Exceso de velocidad', 10000.00),
 ('Estacionamiento en lugar prohibido', 7500.00),
